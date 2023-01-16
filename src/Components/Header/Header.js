@@ -23,17 +23,18 @@ const Header = () => {
             <Nav className="me-auto">
               <Nav.Link href="/about">About Me</Nav.Link>
               <Nav.Link href="/skills">Skills</Nav.Link>
-              <NavDropdown title="Project" id="collasible-nav-dropdown">
+              <Nav.Link href="/projects">Projects</Nav.Link>
+              {/* <NavDropdown title="Project" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="/projects">Projects</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">Contact</NavDropdown.Item>
-                <NavDropdown.Item target="_blank" href="https://drive.google.com/file/d/1O9n0BYilRGP-eBzE1S-rTJ2hHY2UaSce/view?usp=sharing">Resume</NavDropdown.Item>
+                <NavDropdown.Item target="_blank" href="https://drive.google.com/file/d/1CZ26iCV9YF8KwVn_Vphfi71G6d77B3ke/view?usp=sharing">Resume</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">Courses</NavDropdown.Item>
-              </NavDropdown>
+              </NavDropdown> */}
             </Nav>
             <Nav>
-              <Nav.Link href="#deets">contact</Nav.Link>
-              <Nav.Link eventKey={2} target="_blank" href="https://drive.google.com/file/d/1O9n0BYilRGP-eBzE1S-rTJ2hHY2UaSce/view?usp=sharing">
+              <Nav.Link href="#deets">Contact</Nav.Link>
+              <Nav.Link eventKey={2} target="_blank" href="https://drive.google.com/file/d/1CZ26iCV9YF8KwVn_Vphfi71G6d77B3ke/view?usp=sharing">
                 Resume Download
               </Nav.Link>
             </Nav>

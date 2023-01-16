@@ -148,22 +148,22 @@ const Projects = () => {
             <h3 className="project-title">Panda Website</h3>
             <p className="project-description">
               This is one of my responsive Website.Anyone can shopping
-              to go to visit shopping mall .user
-              can Login via Google sign, and email and password.
+              to visit shopping site.
+              {/* user can Login via Google sign, and email and password. */}
             </p>
             <div className="project-detailsP">
               <li>
                 Users can Purchase and give a review for each product.
               </li>
-              <li> Have admin dashboard and user dashboard.</li>
+              <li>User can view various types of  bag</li>
+              <li>User can view various types of  Shoes and watch</li>
               {/* <li> Admin can delete, add, manage Foods.</li> */}
-              <li>
+              {/* <li>
                 User Can Create an Account and Login Via firebase authentication
-              </li>
+              </li> */}
               <li>
-                <strong className="technology">Bootstrap  technology:</strong>{" "}
-                {/* React js, Bootstrap,React Router, Firebase Authentication,React
-                Spring */}
+                <strong className="technology">Front-end technology::</strong>{" "}
+                React js, Bootstrap,React Router,
               </li>
               {/* <li>
                 <strong className="technology">Back-end technology:</strong>{" "}
