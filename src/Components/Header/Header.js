@@ -34,7 +34,7 @@ const Header = () => {
             </Nav>
             <Nav>
               <Nav.Link href="#deets">Contact</Nav.Link>
-              <Nav.Link eventKey={2} target="_blank" href="https://drive.google.com/file/d/1CZ26iCV9YF8KwVn_Vphfi71G6d77B3ke/view?usp=sharing">
+              <Nav.Link eventKey={2} target="_blank" href="https://drive.google.com/file/d/1aqfnNOQAF6y9hjtxb-ansv9aJJZrCp58/view?usp=sharing">
                 Resume Download
               </Nav.Link>
             </Nav>

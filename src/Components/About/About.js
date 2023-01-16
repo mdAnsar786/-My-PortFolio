@@ -120,7 +120,7 @@ const About = () => {
             <button className="btn mt-3 resume-download" style={{background:"#3D550C",color:"#ECF87F"}}>
               <a
                 className="text-light"
-                href="https://drive.google.com/file/d/1CZ26iCV9YF8KwVn_Vphfi71G6d77B3ke/view?usp=sharing"
+                href="https://drive.google.com/file/d/1aqfnNOQAF6y9hjtxb-ansv9aJJZrCp58/view?usp=sharing"
                 download
               >
                 Download Resume
