@@ -1,0 +1,69 @@
+.skills-btn {
+    /* background-color: #6c757d; */
+    background-color:  #3D550C;
+    color:#ECF87F;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 400px;
+  }
+  .my-description {
+    margin: auto;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #0d0333;
+    font-size: 17px;
+    padding: 10px;
+    width: 400px;
+  }
+  @media screen and (max-width: 467px) {
+    .my-description {
+      width: 85%;
+    }
+  }
+  /* .paragraph {
+    width: 400px;
+    margin: auto;
+    color: black;
+  } */
+  
+  .title {
+    font-size: 38px;
+    /* color: rgb(70, 104, 8); */
+    color:#5CD85A;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+  }
+  .skills {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color:#5CD85A;
+  }
+  .education {
+    text-align: justify;
+    width: 100%;
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    color: rgb(5, 68, 68);
+  }
+  
+  .my-skill {
+    font-size: 38px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: #59981A;
+  }
+  
+  .typewriter {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.15em; /* Adjust as needed */
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
